@@ -1,6 +1,7 @@
 Wersja angielska pod polską
 
 Przed rozpoczęciem należy pobrać plik 'zadanie_python.py' oraz plik z danymi (zapisać go jako 'matura.csv') do jednego folderu.
+Do zadania bonusowego - należy zainstalować bibliotekę pandas
 
 Włączenie programu:
 - W 'Anaconda Prompt'/'Command Prompt' przejść do katalogu z plikiem zadanie_python.py
@@ -36,6 +37,7 @@ Testy z użyciem pytest:
 
 Before you start:
 - download the 'zadanie_python.py' file and data file (save it as 'matura.csv') to one directory.
+- for bonus task - install pandas
 
 Running the program:
 - Go to 'zadanie_python.py' file location in 'Anaconda Prompt'/'Command Prompt'
