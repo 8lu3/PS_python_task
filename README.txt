@@ -1,37 +1,37 @@
-Wersja angielska pod polsk¹
+Wersja angielska pod polskÄ…
 
-Przed rozpoczêciem nale¿y pobraæ plik 'zadanie_python.py' oraz plik z danymi (zapisaæ go jako 'matura.csv') do jednego folderu.
+Przed rozpoczÄ™ciem naleÅ¼y pobraÄ‡ plik 'zadanie_python.py' oraz plik z danymi (zapisaÄ‡ go jako 'matura.csv') do jednego folderu.
 
-W³¹czenie programu:
-- W 'Anaconda Prompt'/'Command Prompt' przejœæ do katalogu z plikiem zadanie_python.py
-- wpisaæ 'python zadanie_python.py'
-- U¿ytkowaæ program wg poleceñ podanych na ekranie
+WÅ‚Ä…czenie programu:
+- W 'Anaconda Prompt'/'Command Prompt' przejÅ›Ä‡ do katalogu z plikiem zadanie_python.py
+- wpisaÄ‡ 'python zadanie_python.py'
+- UÅ¼ytkowaÄ‡ program wg poleceÅ„ podanych na ekranie
 
-U¿ytkowanie programu:
-- Wybór zadania do wykonania za pomoc¹ cyfr '1','2','3','4','5','6' oraz literki 'q'
+UÅ¼ytkowanie programu:
+- WybÃ³r zadania do wykonania za pomocÄ… cyfr '1','2','3','4','5','6' oraz literki 'q'
 Gdzie:
-    1 - œrednia liczba osób, które przyst¹pi³y do egzaminu
-    2 - procentowa zdawalnoœæ
-    3 - województwo o najlepszej zdawalnoœci w konkretnym roku
-    4 - województwa, które zanotowa³y regresjê
-    5 - porównanie dwóch województw
-    6 - podanie czy województwo w danym roku zanotowa³o regres
-    q - wyjœcie
-- Wybór filtra za pomoc¹ cyfr '1','2' oraz '3'
+    1 - Å›rednia liczba osÃ³b, ktÃ³re przystÄ…piÅ‚y do egzaminu
+    2 - procentowa zdawalnoÅ›Ä‡
+    3 - wojewÃ³dztwo o najlepszej zdawalnoÅ›ci w konkretnym roku
+    4 - wojewÃ³dztwa, ktÃ³re zanotowaÅ‚y regresjÄ™
+    5 - porÃ³wnanie dwÃ³ch wojewÃ³dztw
+    6 - podanie czy wojewÃ³dztwo w danym roku zanotowaÅ‚o regres
+    q - wyjÅ›cie
+- WybÃ³r filtra za pomocÄ… cyfr '1','2' oraz '3'
 Gdzie
     1 - kobiety
-    2 - mê¿czyŸni
-    3 - bez rozró¿nienia (tryb domyœlny)
-- W zale¿noœci od wybranego zadania wyst¹pi mo¿liwoœæ wyboru nastêpuj¹cych opcji:
-+ wybór województwa (jedno lub dwa z): ['Dolnoœl¹skie', 'Kujawsko-pomorskie', 'Lubelskie', 'Lubuskie', '£ódzkie', 'Ma³opolskie', 'Mazowieckie', 'Opolskie', 'Podkarpackie', 'Podlaskie', 'Pomorskie', 'Œl¹skie', 'Œwiêtokrzyskie', 'Warmiñsko-Mazurskie', 'Wielkopolskie', 'Zachodniopomorskie']
-+ wybór roku (jedno z): [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
-- Program zapêtla siê do czasu wyboru zadania 'q'
-- Na koniec nastêpuje wczytywanie pliku z zewnêtrznego serwera i wydrukowanie na ekranie pierwszych piêciu rzêdów pobranego pliku
+    2 - mÄ™Å¼czyÅºni
+    3 - bez rozrÃ³Å¼nienia (tryb domyÅ›lny)
+- W zaleÅ¼noÅ›ci od wybranego zadania wystÄ…pi moÅ¼liwoÅ›Ä‡ wyboru nastÄ™pujÄ…cych opcji:
++ wybÃ³r wojewÃ³dztwa (jedno lub dwa z): ['DolnoÅ›lÄ…skie', 'Kujawsko-pomorskie', 'Lubelskie', 'Lubuskie', 'ÅÃ³dzkie', 'MaÅ‚opolskie', 'Mazowieckie', 'Opolskie', 'Podkarpackie', 'Podlaskie', 'Pomorskie', 'ÅšlÄ…skie', 'ÅšwiÄ™tokrzyskie', 'WarmiÅ„sko-Mazurskie', 'Wielkopolskie', 'Zachodniopomorskie']
++ wybÃ³r roku (jedno z): [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
+- Program zapÄ™tla siÄ™ do czasu wyboru zadania 'q'
+- Na koniec nastÄ™puje wczytywanie pliku z zewnÄ™trznego serwera i wydrukowanie na ekranie pierwszych piÄ™ciu rzÄ™dÃ³w pobranego pliku
 
-Testy z u¿yciem pytest:
-- Nale¿y przejœæ do katalogu z plikiem zadanie_python.py i wpisaæ:
+Testy z uÅ¼yciem pytest:
+- NaleÅ¼y przejÅ›Ä‡ do katalogu z plikiem zadanie_python.py i wpisaÄ‡:
 - pytest -s zadanie_python.py
-- wpisaæ 'q' (ewentualnie 'potestowaæ' program samemu)
+- wpisaÄ‡ 'q' (ewentualnie 'potestowaÄ‡' program samemu)
 ----------------------------------------------------------
 
 Before you start:
@@ -58,9 +58,9 @@ Where:
     2 - men
     3 - both (default)
 - Depending on the chosen task the following options will be available:
-+ Province (one or two from the list): ['Dolnoœl¹skie', 'Kujawsko-pomorskie', 'Lubelskie', 'Lubuskie', '£ódzkie', 'Ma³opolskie', 'Mazowieckie', 'Opolskie', 'Podkarpackie', 'Podlaskie', 'Pomorskie', 'Œl¹skie', 'Œwiêtokrzyskie', 'Warmiñsko-Mazurskie', 'Wielkopolskie', 'Zachodniopomorskie']
++ Province (one or two from the list): ['DolnoÅ›lÄ…skie', 'Kujawsko-pomorskie', 'Lubelskie', 'Lubuskie', 'ÅÃ³dzkie', 'MaÅ‚opolskie', 'Mazowieckie', 'Opolskie', 'Podkarpackie', 'Podlaskie', 'Pomorskie', 'ÅšlÄ…skie', 'ÅšwiÄ™tokrzyskie', 'WarmiÅ„sko-Mazurskie', 'Wielkopolskie', 'Zachodniopomorskie']
 + year: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
-- Program loops until the 'q' task's choice
+- Program loops until the 'q' task is chosen
 - At the end program loads the external file and prints the first five rows on the screen
 
 Tests with pytest:
