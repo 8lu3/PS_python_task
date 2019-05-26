@@ -36,7 +36,7 @@ Where:
 
 `[2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]`
 - Program loops until the `q` task is chosen
-- At the end program loads the external file and prints the first five rows on the screen
+- At the end program loads the external file and prints the first five rows on the screen (using pandas - has to be installed first)
 
 ## Tests with pytest:
 - go to `zadanie_python.py` file location and type:
